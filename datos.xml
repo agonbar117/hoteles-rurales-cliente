@@ -1,0 +1,208 @@
+<hotel>
+    <personas>
+        <trabajador>
+            <nombre>Ramón Pérez</nombre>
+            <dni>12543586T</dni>
+            <direccion>Avenida de la paz, 7</direccion>
+            <fechaNacimiento>1996-05-23</fechaNacimiento>
+            <email>ramonperez@gmail.com</email>
+            <telefono>638394576</telefono>
+
+            <ss>2134456071</ss>
+            <sueldo>1200</sueldo>
+            <puesto>Recepcionista</puesto>
+        </trabajador>
+
+        <trabajador>
+            <nombre>Pedro Hidalgo</nombre>
+            <dni>64987234T</dni>
+            <direccion>Via Flamina, 23</direccion>
+            <fechaNacimiento>1992-07-22</fechaNacimiento>
+            <email>pedrohidalgo@gmail.com</email>
+            <telefono>548123756</telefono>
+
+            <ss>5812984721</ss>
+            <sueldo>1050</sueldo>
+            <puesto>Limpiador</puesto>
+        </trabajador>
+
+        <cliente>
+            <nombre>Pablo González</nombre>
+            <dni>54633123G</dni>
+            <direccion>Julio carrasco, 22</direccion>
+            <fechaNacimiento>1992-04-30</fechaNacimiento>
+            <email>pablogonzalez@gmail.com</email>
+            <telefono>586734234</telefono>
+
+            <cuentaBancaria>457823598732598072</cuentaBancaria>
+        </cliente>
+
+        <cliente>
+            <nombre>Isabel Carrasco</nombre>
+            <dni>58745623G</dni>
+            <direccion>Avenida europa, 10</direccion>
+            <fechaNacimiento>1990-05-28</fechaNacimiento>
+            <email>isabelcarrasco@gmail.com</email>
+            <telefono>687459234</telefono>
+
+            <cuentaBancaria>534248526875587452</cuentaBancaria>
+        </cliente>
+
+        <cliente>
+            <nombre>Frodo Bolsón</nombre>
+            <dni>43822746G</dni>
+            <direccion>Avenida de andalucia, 3</direccion>
+            <fechaNacimiento>1990-09-18</fechaNacimiento>
+            <email>frodobolson@gmail.com</email>
+            <telefono>587126843</telefono>
+
+            <cuentaBancaria>452703572045704597</cuentaBancaria>
+        </cliente>
+
+        <cliente>
+            <nombre>Julio Gordon</nombre>
+            <dni>58723657A</dni>
+            <direccion>Avenida españa, 5</direccion>
+            <fechaNacimiento>1980-02-16</fechaNacimiento>
+            <email>juliogordon@gmail.com</email>
+            <telefono>598734562</telefono>
+
+            <cuentaBancaria>8543275328457879546</cuentaBancaria>
+        </cliente>
+    </personas>
+
+
+    <habitaciones>
+        <habitacion>
+            <nombre>1º A</nombre>
+            <precio>48</precio>
+            <camas>
+                <tipo>
+                    <descripcion>Matrimonio</descripcion>
+                    <cantidad>1</cantidad>
+                </tipo>
+                <tipo>
+                    <descripcion>Individual</descripcion>
+                    <cantidad>1</cantidad>
+                </tipo>
+            </camas>
+        </habitacion>
+
+        <habitacion>
+            <nombre>1º B</nombre>
+            <precio>74</precio>
+            <camas>
+                <tipo>
+                    <descripcion>Matrimonio</descripcion>
+                    <cantidad>2</cantidad>
+                </tipo>
+                <tipo>
+                    <descripcion>Individual</descripcion>
+                    <cantidad>0</cantidad>
+                </tipo>
+            </camas>
+        </habitacion>
+
+        <habitacion>
+            <nombre>2º A</nombre>
+            <precio>30</precio>
+            <camas>
+                <tipo>
+                    <descripcion>Matrimonio</descripcion>
+                    <cantidad>0</cantidad>
+                </tipo>
+                <tipo>
+                    <descripcion>Individual</descripcion>
+                    <cantidad>2</cantidad>
+                </tipo>
+            </camas>
+        </habitacion>
+
+        <habitacion>
+            <nombre>2º B</nombre>
+            <precio>80</precio>
+            <camas>
+                <tipo>
+                    <descripcion>Matrimonio</descripcion>
+                    <cantidad>2</cantidad>
+                </tipo>
+                <tipo>
+                    <descripcion>Individual</descripcion>
+                    <cantidad>2</cantidad>
+                </tipo>
+            </camas>
+        </habitacion>
+    </habitaciones>
+
+
+    <servicios>
+        <servicio>
+            <nombre>Limpieza</nombre>
+            <precio>0</precio>
+        </servicio>
+
+        <servicio>
+            <nombre>Comidas</nombre>
+            <precio>30</precio>
+        </servicio>
+
+        <servicio>
+            <nombre>Spa</nombre>
+            <precio>20</precio>
+        </servicio>
+
+        <servicio>
+            <nombre>Aparcamiento</nombre>
+            <precio>10</precio>
+        </servicio>
+
+        <servicio>
+            <nombre>Wifi</nombre>
+            <precio>6</precio>
+        </servicio>
+
+        <servicio>
+            <nombre>Televisión</nombre>
+            <precio>15</precio>
+        </servicio>
+    </servicios>
+
+
+    <reservas>
+        <reserva>
+            <idHabitacion>4</idHabitacion>
+            <idPersona>3</idPersona>
+            <fechaInicio>2022-06-09</fechaInicio>
+            <fechaFin>2022-07-07</fechaFin>
+            <servicio>3</servicio>
+            <precioTotal>100</precioTotal>
+        </reserva>
+
+        <reserva>
+            <idHabitacion>1</idHabitacion>
+            <idPersona>4</idPersona>
+            <fechaInicio>2020-02-13</fechaInicio>
+            <fechaFin>2020-02-18</fechaFin>               
+            <servicio>1</servicio>
+            <precioTotal>48</precioTotal>
+        </reserva>
+
+        <reserva>
+            <idHabitacion>3</idHabitacion>
+            <idPersona>5</idPersona>
+            <fechaInicio>2020-04-13</fechaInicio>
+            <fechaFin>2020-04-18</fechaFin>
+            <servicio>4</servicio>
+            <precioTotal>40</precioTotal>
+        </reserva>
+
+        <reserva>
+            <idHabitacion>2</idHabitacion>
+            <idPersona>6</idPersona>
+            <fechaInicio>2020-04-17</fechaInicio>
+            <fechaFin>2020-04-19</fechaFin>
+            <servicio>5</servicio>
+            <precioTotal>80</precioTotal>
+        </reserva>
+    </reservas>
+</hotel>
